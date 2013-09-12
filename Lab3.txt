@@ -1,0 +1,29 @@
+CJ Dobbins
+Lab 3: Constructors
+
+1.  The declaration and instantiation need to come first in order
+to create a new instance of the snowman that we will be dealing with.
+If the declaration and instantiation did not come first we would be trying
+to build, color, and add a face to an object that did not exist yet.
+
+2.  The buildSnowman method must be called first. 
+
+3. The order of the other method calls does not matter.  Once the window 
+with an empty snowman is created we can add features in any order.
+
+4.  The buildSnowman method must be called first, because it creates the window
+and the empty snowman shape.
+
+5.  When the SnowmanII object is instantiated, the buildSnowman method is automatically
+called, and a new window with the empty snowman is created.
+
+6.  This version behaves the exactly the same.  Instead of having a constructor the calls
+the buildSnowman method, the buildSnowman method has become the constructor.  Same effect
+and less code.
+
+7.  This version will not compile, because the constructor name must be the same as the
+class name.  The compiler thinks you are trying to create a method, but it is missing the
+return type.
+
+8.  This version will also not compile, because it appears that you are trying to declare
+a method, but the name SnowmanII can only be used as a constructor.

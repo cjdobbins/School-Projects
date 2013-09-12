@@ -1,0 +1,13 @@
+CJ Dobbins
+Assignment 2:  Flags
+
+	I started out this assignment with the "This looks easy... I can do this approach."
+I started learning programming last year with a Java based language called Processing
+which is designed for making graphics and works fairly similar to NsccWindow.  So, 
+I didn't plan anything out and I just started writing code.  I ended up having to completely
+start over on the flag of Sweden, because I thought it would be easier just to calculate
+the yellow cross instead of making four rectangles.  It would have worked out, but you
+have to get rid of the black outline.  So, when I switched over to the four rectangle 
+approach I did something wrong with the calculations, and ended up with a plain yellow
+flag.  I finally got it working, but it would be beneficial to take some time 
+to plan before running head first into a brick wall.

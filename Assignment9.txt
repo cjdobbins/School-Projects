@@ -1,0 +1,21 @@
+CJ Dobbins
+Assignment 9: Sieve of Eratosthenes
+
+I started out the project by working on the sieve algorithm.  I knew that
+I would need to keep track of the current prime number as well as running
+through the list to check each number that followed to see if it was 
+prime.  I though at first that I might be able to set up two separate 
+iterators. The first iterator would check the next prime, and the second
+would run through the list to get each value remaining in the list, and
+remove the non-primes.  When I tested it I got a concurrent modification
+error, because I had to iterators working on the same list.  So I decided
+to go with a for loop to get the next prime with a while loop nested
+inside with an iterator to scan through the entire list.  To verify my
+results I found a list of the first 10000 prime numbers at
+primes.utm.edu/lists/small/10000.txt?.  That way I could just pick a number
+and look at all the primes less than that number.  I did discover
+an error in my program when I tested for n=4.  The for loop was set
+to run as long as currentPrime < m.  Since the square root of 4 is 2 and
+the first prime is 2 currentPrime would never be < m, the loop wouldn't 
+run, and 4 would be left in the list to be returned as a prime number.
+Changing this to currentPrime <= m fixed the issue.

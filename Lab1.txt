@@ -1,0 +1,45 @@
+CJ Dobbins
+Lab 1: Programming Background
+
+1. Keyword - A word recongized by a programming language that performs a certain process.  
+		A keyword can't be used as a function or variable name.
+
+2. Local Variable - A local variable is local to a particular function.  If a local variable is used outside
+		the function that defines it then it will not be recongized.
+
+3. while statement - The while statement runs as a loop while a certain condition is met.  
+		Once the condition is no longer met then the loop ends.
+
+4. Calling a function means that the program is being told to jump to a function that has been defined.  
+		Variables can be passed to a function and the function can return a result.
+
+5. An assignment statement assigns a name and a value for a variable - x = 20
+
+6. Data types - String, int, float, boolean, list
+
+7. The pseudo code finds the absolute value of x
+
+8. x = 2
+
+9. f(f(x)) = 14
+
+10. Using python
+
+for i in range(1, 11):
+   print(i)
+
+or
+
+x = 0
+while x < 10:
+   x += 1
+   print(x)
+
+or
+
+x = []
+for i in range(1, 11):
+   x.append(i)
+print(x)
+
+

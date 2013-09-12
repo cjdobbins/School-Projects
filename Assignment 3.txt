@@ -1,0 +1,21 @@
+CJ Dobbins
+Assignment 3: Tic-Tac-Toe
+
+I started out the assignment by drawing out the boards on paper and labeling
+the end points of each of the line segments.  I figured getting everything
+to look right would be the hardest part.  The bigest problem I encountered
+was creating the overload for the angles.  It took me a while to see
+that the endpoints had to be calculated by angle and radius from the center
+rather than the top left like the rest of the boards.  I also learned
+about the double data type and how to convert data types.  Next time I might 
+try writing comments as I go rather than doing them all at the end.
+
+Fields vs. Local Variables
+
+The NsccWindow reference needs to be a field, because it is needs to be accesable
+by everything else.  This is where the boards are being drawn.  The NsccLine references
+need to be local to the draw function, because you are creating new lines everytime the
+function is callled.  If the line references were a field, you would just be changing them
+everytime the function was called.  Also, the reason the NsccWindow is private is because
+it is not meant to be messed with by outside sources.  It is created specifically for the
+use of the Tic-Tac-Toe class. 

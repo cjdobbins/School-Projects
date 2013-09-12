@@ -1,0 +1,21 @@
+CJ Dobbins
+Lab 12: Collections
+
+1.   private java.util.ArrayList<String> reindeer;
+
+2.     reindeer = new java.util.ArrayList<String>();
+
+3.     deer.reindeer = new java.util.LinkedList<String>();
+
+4. They give the same output.
+
+5. The array list is printed first.  Then the linked list with the same
+names is printed.  Then the names are added to the linked list again, and
+the list is printed with all of the names occuring twice.
+
+6.     deer.reindeer = new java.util.HashSet<String>();
+
+7. When the HashSet is printed the names come out in a different order.
+
+8. Duplicates are thrown out.  After the names are added to the HashSet
+a second time the names still only show up once.

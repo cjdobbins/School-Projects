@@ -1,0 +1,38 @@
+CJ Dobbins
+Assignment 4: Scene Creation
+
+I started out this assignment by drawing out the scene.
+I mapped out the critical points for the objects location
+and size, and I started programming.  Everything went pretty smooth
+although I was pretty busy this week, so I didn't get to do the challenge
+part.  I also thought it would be cool to link the objects size to it's
+y-axis location, so that the closer the object is placed to the horizon,
+the smaller it would become.  That way you would have some sense of 
+perspective rather than just rubber stamping houses and trees all over
+the place.  Next time I will try to start earlier, so I can accomplish
+the more challenging parts.
+
+Answers to questions:
+
+1.  setLocation works for MyHouse and MyTree, because it is inherited
+from the NsccComponent class.  Since both MyHouse and MyTree are 
+NsccComponents, they can be relocated just as easy as a NsccRectangle
+or NsccEllipse.
+
+2.  setSize does not work as well for MyHouse and MyTree.  Although
+it is inherited from NsccComponent, it only changes the component size.
+Therefore when you set the size to something smaller than your house or
+tree then you just end up chopping off whatever lies outside the bounds
+of the component.
+
+3.  In order to get setSize to work for MyHouse and MyTree, a new
+setSize function would have to be created for each.  The size of
+each piece would have to be set relative to the bounds of the 
+component size.  For example the width of the roof would be equal
+to the width of the component, and the height of the roof would be
+perhaps 1/2 the height of the component, rather than having a hard 
+coded width and height.  We had to do these calculations to make sure
+that the original house and tree would fit inside their respective 
+components anyway, so it probably would be pretty easy to just code
+the sizes of the shapes as a ratio to the size of the component that
+contains them.

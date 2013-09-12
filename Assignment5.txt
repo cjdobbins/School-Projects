@@ -1,0 +1,15 @@
+CJ Dobbins
+Assignment 5: Shape Hierarchy
+
+I started out this assignment by mapping out which shapes 
+would inheret the properties of the other shapes.  The square
+is a rectangle so it only needs to change its name.  Everything else
+can be used from the rectangle class.  The same goes for the 
+relationship between the circle and ellipse class.  The biggest problem
+I had was with the triangle.  When I ran TestShapes and entered 3 by 5 for
+the dimensions of the triangle, it would return an area of 7.0 instead
+of 7.5.  It took me a while to realize it was because I was multiplying
+and dividing integers, which returns another integer.  Changing 
+width * height/2 to width * height * .5 solved the problem.  In
+the future I could probably solve problems like this more quickly
+by using the interactions pane instead of running the program.

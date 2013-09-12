@@ -1,0 +1,22 @@
+CJ Dobbins
+Lab 4: Vertical Alignment
+
+1. 6
+
+2. Method 1 and 2 both function the same, but Method 2 is harder to 
+follow because it has no indentation.
+
+3. Method 3 is a little harder to read than Method 2, because the "}"
+are at the end of the line instead of on the next line.
+
+4. When the TAB key was pressed, everything was automatically indented,
+and Method 2 now looks identical to Method 1.
+
+5.  In Method 5 everything gets aligned with the open paranthesis "("
+on the previous line.
+
+6.  It's hard to tell what line 56 is "trying" to align with.  The
+previous line contains the end of a println statement, the end of the
+if statement, the whole i ++ statement, and the beginning of a new
+statement.  At best it seems to be lining up with the close
+parenthesis ")" on the line above.

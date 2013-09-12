@@ -1,0 +1,17 @@
+CJ Dobbins
+Assignment 8: Addition
+
+I began this assignment by looking at what the output of the 
+program should be, and working backwards to figure out what 
+it would take to get there.  I used an accumulator to add together
+the command line arguments, and a supporting method to check for 
+validity and block out the bad arguments, as well as a fencepost
+algorithm to properly format the output.  One problem I ran into was
+with the fencepost algorithm.  If the first input was invalid, it would
+not print, and the output would begin with a + instead of a number.  
+I figured out that as long as the number of bad inputs was equal to
+the current list index number no plus sign was needed in front of the 
+number, because it would be the first one printed.  The most important
+thing I learned from this assignment was how to handle command line 
+arguments.  It helps clarify the application method that we have been
+using all along.

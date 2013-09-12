@@ -1,0 +1,20 @@
+CJ Dobbins
+Lab 5: Snowman's Hat
+
+1.  The class won't compile with the constructors given.  The two constructors are calling each other.
+
+2.  The hat goes away.  The reference to the hat is declared null and the window is repainted.
+
+3.  You get a null pointer exception error. There is no hat for the move hat function to manipulate.
+
+4.  You can only move the newest hat.  When a new hat is added, the reference "theHat" points to
+the new hat, and there is no longer any reference to the old hat.  The old hat is basically locked in
+at this point.
+
+5.  SnowmanIII is designed to "wear" an NsccComponent as a hat.  If the new hat class is not a subclass
+of NsccComponent, then it won't inherit all the goodies of NsccComponent, and the SnowmanIII class won't
+be able to use it.
+
+6.  As long as the component size is set large enough to include all the pieces that you want to
+display then you're good to go.  I purposely made the component size too small to cut off the bottom 
+half of the ellipse in my hat class.
